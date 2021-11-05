@@ -1,0 +1,9 @@
+/*
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/herbalapothecary-child__futurehealthstore
+!.gitignore 
+!.cpanel.yml
+/wp-content/themes/herbalapothecary-child__futurehealthstore/node_modules

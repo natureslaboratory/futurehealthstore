@@ -12,3 +12,6 @@
  Text Domain:  
 */
 
+.wc-block-product-categories-list.wc-block-product-categories-list--depth-1 {
+    display: none;
+}

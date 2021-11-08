@@ -15,3 +15,12 @@ function remove_ha_redundant_actions()
 }
 
 
+add_filter('get_custom_logo', 'fh_change_logo_class');
+function fh_change_logo_class($html)
+{
+
+    $html = str_replace('custom-logo', 'c-header__logo', $html);
+    $html = str_replace('custom-logo-link', 'your-custom-class', $html);
+
+    return $html;
+}

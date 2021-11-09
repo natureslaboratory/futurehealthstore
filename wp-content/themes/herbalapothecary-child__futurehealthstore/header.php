@@ -22,7 +22,7 @@
 						<i class="fas fa-phone-alt"></i>
 						<div class="c-header__contact-details">
 							<p>Hotline</p>
-							<a href="tel:+441947602346" aria-label="Phone Number">01947 602346</a>
+							<a href="tel:+441947 603456" aria-label="Phone Number">01947 603456</a>
 						</div>
 					</div>
 					<div class="c-header__cart c-menu__trigger" tabindex="0">

@@ -12,10 +12,19 @@
  Text Domain:  
 */
 
+* {
+    /* color: var(--primary, var(--green)); */
+    --primary: #b56068;
+}
+
 .wc-block-product-categories-list.wc-block-product-categories-list--depth-1 {
     display: none;
 }
 
 .c-search {
     margin: 0;
+} 
+
+.c-footer__top {
+    grid-template-columns: 1fr 1fr 1fr;
 }

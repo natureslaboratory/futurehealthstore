@@ -4,7 +4,7 @@ function fh_enqueue_assets()
 {
     wp_enqueue_style('futurehealthstore-style', get_stylesheet_uri(), array('herbalapothecary-style'), _S_VERSION);
 }
-add_action('wp_enqueue_scripts', 'fh_enqueue_assets');
+add_action('wp_enqueue_scripts', 'fh_enqueue_assets', 20);
 
 
 add_action('init', 'remove_ha_redundant_actions');

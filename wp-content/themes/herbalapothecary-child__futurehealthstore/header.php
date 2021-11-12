@@ -99,7 +99,7 @@
 					</div>
 				</div>
 			</div>
-			<nav id="site-navigation" class="main-navigation c-navigation l-block l-block--no-padding" tabindex="-1">
+			<nav id="site-navigation" class="main-navigation c-navigation l-block l-block--no-padding <?= is_front_page() ? "c-navigation--front-page" : "" ?>" tabindex="-1">
 				<div class="l-restrict c-navigation__inner">
 					<div>
 						<i class="fas fa-bars menu-toggle" aria-controls="primary-menu" aria-expanded="false"></i>
@@ -117,16 +117,5 @@
 					<?php echo get_template_part("template-parts/header-search", "search") ?>
 				</div>
 			</nav>
-			<?php
-			if (is_front_page()) :
-			?>
-				<div class="c-banner l-block l-block--no-padding">
-					<div class="l-restrict">
-						<h3>We Ship Internationally from UK</h3>
-					</div>
-				</div>
-			<?php
-			endif;
-			?>
 		</header>
 		<div id="content">

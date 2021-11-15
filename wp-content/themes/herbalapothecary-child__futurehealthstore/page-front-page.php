@@ -18,7 +18,7 @@ get_header();
                     <p class="c-carousel__small-heading">Ethical Goods, Traded Fairly</p>
                     <h2 class="c-carousel__heading">Future Health Store</h2>
                     <p class="c-carousel__description">
-                        
+                        We're a not-for-profit community interest company. We never charge more than RRP and our members earn a 5% dividend on every purchase.</p>
                     </p>
                     <a href="/about-us/" aria-label="About Us"><button class="c-button">Find Out More</button></a>
                 </div>

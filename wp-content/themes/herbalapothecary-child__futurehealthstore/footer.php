@@ -20,6 +20,22 @@
 				Future Health Store is run by The Dispensary, a not-for-profit community interest company based in Whitby, North Yorkshire.
 			</p>
 		</div>
+		<div class="c-footer__accreditations">
+			<h2>Accreditations</h2>
+			<p>
+<!--
+				We are proud to be a real Living Wage employer with ISO9001:2015 quality management
+				systems and organic certification.
+-->
+			</p>
+			<div class="c-footer__accreditations-logos">
+<!--
+				<a rel="noreferrer" href="https://www.livingwage.org.uk/" target="_blank"><img src="/wp-content/uploads/2021/09/living-wage.png" width="106px" height="84px" alt="Living Wage"></a>
+				<a href="/quality/" title="High Quality Herbal Products"><img src="/wp-content/uploads/2021/09/cqs.png" alt="CQS" width="72px" height="90px" loading="lazy"></a>
+				<a href="/organic/" title="Organic Herbal Products"><img src="/wp-content/uploads/2021/09/euorg.png" alt="euorg" width="138px" height="92px" loading="lazy"></a>
+-->
+			</div>
+		</div>
 		<div class="c-footer__info c-footer__column">
 			<h2>Company Info</h2>
 			<a href="tel:+441947 603456">

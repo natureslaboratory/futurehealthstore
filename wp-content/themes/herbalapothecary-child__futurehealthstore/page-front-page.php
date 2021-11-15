@@ -17,9 +17,7 @@ get_header();
                 <div class="c-carousel__content">
                     <p class="c-carousel__small-heading">Ethical Goods, Traded Fairly</p>
                     <h2 class="c-carousel__heading">Future Health Store</h2>
-                    <p class="c-carousel__description">
-                        We're a not-for-profit community interest company. We never charge more than RRP.</p>
-                    </p>
+                    <p class="c-carousel__description">We're a not-for-profit community interest company. We never charge more than RRP.</p>
                     <a href="/about-us/" aria-label="About Us"><button class="c-button">Find Out More</button></a>
                 </div>
             </div>

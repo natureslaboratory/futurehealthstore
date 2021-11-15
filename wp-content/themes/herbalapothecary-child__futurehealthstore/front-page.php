@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package herbalapothecary
+ * @package futurehealthtore
  */
 
 get_header();

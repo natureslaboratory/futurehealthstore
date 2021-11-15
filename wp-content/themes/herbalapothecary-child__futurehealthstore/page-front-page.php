@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Calculator 
+ * Template Name: Home Page 
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

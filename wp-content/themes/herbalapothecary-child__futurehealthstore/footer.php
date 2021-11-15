@@ -17,7 +17,7 @@
 		<div class="c-footer__herbal">
 			<?php the_custom_logo() ?>
 			<p>
-				Future Health Store
+				Future Health Store is run by The Dispensary, a not-for-profit community interest company based in Whitby, North Yorkshire.
 			</p>
 		</div>
 		<div class="c-footer__info c-footer__column">
@@ -37,8 +37,8 @@
 			<p>
 				Find us on the following social channels
 			</p>
-			<a href="https://twitter.com/futurehealthsto?lang=en" class="c-footer__social-link">
-				<i class="fab fa-twitter"></i><span>Twitter</span>
+			<a href="https://instagram.com/futurehealthstore" class="c-footer__social-link">
+				<i class="fab fa-instagram"></i><span>Instagram</span>
 			</a>
 			<a href="https://www.facebook.com/futurehealthstore/" class="c-footer__social-link">
 				<i class="fab fa-facebook-f"></i><span>Facebook</span>

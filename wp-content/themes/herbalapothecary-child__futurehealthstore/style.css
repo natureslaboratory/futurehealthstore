@@ -71,6 +71,11 @@
     object-fit: contain;
 }
 
-.c-carousel{
-	background-image:url('/wp-content/uploads/2021/11/hero.jpg');
+.c-category h2 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.c-shop__main > .c-categories {
+    margin-top: 0;
 }

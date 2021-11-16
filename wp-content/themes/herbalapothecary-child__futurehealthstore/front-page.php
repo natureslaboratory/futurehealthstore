@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * Template Name: Home Page 
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -16,9 +17,7 @@ get_header();
                 <div class="c-carousel__content">
                     <p class="c-carousel__small-heading">Ethical Goods, Traded Fairly</p>
                     <h2 class="c-carousel__heading">Future Health Store</h2>
-                    <p class="c-carousel__description">
-                        
-                    </p>
+                    <p class="c-carousel__description">We're a not-for-profit community interest company. We never charge more than RRP.</p>
                     <a href="/about-us/" aria-label="About Us"><button class="c-button">Find Out More</button></a>
                 </div>
             </div>
@@ -60,7 +59,7 @@ get_header();
                 <p>Shop Weleda, Faith in Nature & Sweet Cecily's.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option" href="/shop/" style="background-image: url(/wp-content/uploads/2021/09/herb-2.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/food-drink/" style="background-image: url(/wp-content/uploads/2021/09/herb-2.jpg.webp)">
                 <h2>Food & Drink</h2>
                 <h3>Delicious herbal teas & coffee, wholefoods & snacks.</h3>
                 <p>Take care of your body from the inside out.</p>
@@ -89,7 +88,7 @@ get_header();
                 <button class="c-button">Shop Now</button>
             </a>
         </div>
-        <a href="/product-category/natural-skincare/sweet-cecilys/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/10/AdobeStock_354372002-scaled.jpeg.webp)">
+        <a href="//product-category/herbal-remedies/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/10/AdobeStock_354372002-scaled.jpeg.webp)">
             <h2>Herbal Remedies<br><strong>The Power of Plants</strong></h2>
             <div>
                 <p><strong>Explore herbal remedies from A. Vogel & Others</strong></p>

@@ -83,3 +83,7 @@
 .c-carousel{
 	background-image:url('/wp-content/uploads/2021/11/hero.jpg');
 }
+
+.c-calculator-banner.text-white h2, .c-calculator-banner.text-white p{
+	color:#fff;
+}

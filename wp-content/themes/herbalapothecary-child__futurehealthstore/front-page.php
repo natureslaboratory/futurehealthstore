@@ -53,20 +53,20 @@ get_header();
             </div>
         </div>
         <div class="c-specials">
-            <a class="c-specials__option" href="/product-category/natural-skincare/" style="background-image: url(/wp-content/uploads/2021/09/Oral_Health_Range_2-scaled.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/natural-skincare/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
                 <h2>Natural Skincare</h2>
                 <h3>Explore our range of natural skincare from leading brands.</h3>
                 <p>Shop Weleda, Faith in Nature & Sweet Cecily's.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option" href="/product-category/food-drink/" style="background-image: url(/wp-content/uploads/2021/09/herb-2.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/food-drink/" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_61195340-scaled.jpeg)">
                 <h2>Food & Drink</h2>
                 <h3>Delicious herbal teas & coffee, wholefoods & snacks.</h3>
                 <p>Take care of your body from the inside out.</p>
                 <button class="c-button">Shop Now</button>
             </a>
         </div>
-        <a href="/product-category/natural-skincare/sweet-cecilys/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/10/AdobeStock_354372002-scaled.jpeg.webp)">
+        <a href="/product-category/natural-skincare/sweet-cecilys/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/11/SC0017-0018-Grouped-scaled.jpg)">
             <h2>Sweet Cecily's<br><strong>Natural Skincare</strong></h2>
             <div>
                 <p><strong>Ethically produced natural products</strong></p>
@@ -75,20 +75,20 @@ get_header();
             </div>
         </a>
         <div class="c-specials">
-            <a class="c-specials__option" href="/product-category/vitamins-supplements/" style="background-image: url(/wp-content/uploads/2021/09/Oral_Health_Range_2-scaled.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/vitamins-supplements/" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_90653578-scaled.jpeg)">
                 <h2>Vitamins & Supplements</h2>
                 <h3>Give your health and wellbeing a boost.</h3>
                 <p>Choose from a wide range of health supplements.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option" href="/product-category/vitamins-supplements/propolis/" style="background-image: url(/wp-content/uploads/2021/09/herb-2.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/vitamins-supplements/propolis/" style="background-image: url(/wp-content/uploads/2021/11/Whole_Health_Range-scaled.jpg)">
                 <h2>Propolis Healthcare</h2>
                 <h3>Explore the BeeVital Propolis range.</h3>
                 <p>Give your immunity a natural boost this winter.</p>
                 <button class="c-button">Shop Now</button>
             </a>
         </div>
-        <a href="//product-category/herbal-remedies/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/10/AdobeStock_354372002-scaled.jpeg.webp)">
+        <a href="/product-category/herbal-remedies/" class="c-calculator-banner text-white" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_2498696831-scaled.jpeg)">
             <h2>Herbal Remedies<br><strong>The Power of Plants</strong></h2>
             <div>
                 <p><strong>Explore herbal remedies from A. Vogel & Others</strong></p>

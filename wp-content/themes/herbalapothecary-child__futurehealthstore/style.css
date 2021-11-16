@@ -79,3 +79,7 @@
 .c-shop__main > .c-categories {
     margin-top: 0;
 }
+
+.c-carousel{
+	background-image:url('/wp-content/uploads/2021/11/hero.jpg');
+}

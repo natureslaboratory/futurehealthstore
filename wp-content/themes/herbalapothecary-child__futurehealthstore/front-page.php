@@ -66,12 +66,12 @@ get_header();
                 <button class="c-button">Shop Now</button>
             </a>
         </div>
-        <a href="/product-category/natural-skincare/sweet-cecilys/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/11/SC0017-0018-Grouped-scaled.jpg)">
-            <h2>Sweet Cecily's<br><strong>Natural Skincare</strong></h2>
+        <a href="/product-category/herbal-remedies/" class="c-calculator-banner text-white" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_2498696831-scaled.jpeg)">
+            <h2>Herbal Remedies<br><strong>The Power of Plants</strong></h2>
             <div>
-                <p><strong>Ethically produced natural products</strong></p>
-                <p>Hand and face creams, lip balms, body butters and more.</p>
-                <p>Treat your skin well this winter!</p>
+                <p><strong>Explore herbal remedies from A. Vogel & Others</strong></p>
+                <p>Help your body cope with the demands of life.</p>
+                <p>Naturally strengthen your immune system.</p>
             </div>
         </a>
         <div class="c-specials">
@@ -88,12 +88,12 @@ get_header();
                 <button class="c-button">Shop Now</button>
             </a>
         </div>
-        <a href="/product-category/herbal-remedies/" class="c-calculator-banner text-white" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_2498696831-scaled.jpeg)">
-            <h2>Herbal Remedies<br><strong>The Power of Plants</strong></h2>
+        <a href="/product-category/natural-skincare/sweet-cecilys/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/11/SC0017-0018-Grouped-scaled.jpg)">
+            <h2>Sweet Cecily's<br><strong>Natural Skincare</strong></h2>
             <div>
-                <p><strong>Explore herbal remedies from A. Vogel & Others</strong></p>
-                <p>Help your body cope with the demands of life.</p>
-                <p>Naturally strengthen your immune system.</p>
+                <p><strong>Ethically produced natural products</strong></p>
+                <p>Hand and face creams, lip balms, body butters and more.</p>
+                <p>Treat your skin well this winter!</p>
             </div>
         </a>
         <?php
@@ -174,24 +174,6 @@ get_header();
         <div class="c-home-categories">
             <h2>Product Categories</h2>
             <?php
-            // $args = [
-            //     'post_type' => ["product"],
-            //     'meta_key' => 'total_sales',
-            //     'orderby' => 'meta_value_num',
-            //     'order' => 'desc',
-            //     'posts_per_page' => 12
-            // ];
-
-            // $popular_products = new WP_Query($args);
-
-            // if ($popular_products->have_posts()) :
-            //     while ($popular_products->have_posts()) :
-            //         $popular_products->the_post();
-            //         get_template_part('template-parts/product-thumbnail');
-            //     endwhile;
-            // endif;
-
-            // wp_reset_postdata();
             echo get_template_part("template-parts/product-categories", "categories");
             ?>
         </div>
@@ -199,66 +181,60 @@ get_header();
 
         $featureCards = [
             [
-                "title" => "Evidence",
+                "title" => "Weleda",
                 "description" => "
                 <p>
-                At Herbal Apothecary we seek to produce natural medicines of the highest quality. We
-                manufacture under ISO9001:2015 and Organic certification and according to HACCP
-                and GMP principles. We are supported in our work by highly qualified scientific
-                personnel.
+                Weleda has been growing plants organically and creating natural health and wellbeing products for 100 years. At Weleda, they place very high 
+                demands on the ingredients used in their products and are proudly NATRUE certified, the first internationally recognised quality seal for organic and natural beauty products. 
                 </p>",
-                "button_label" => "More about Evidence",
-                "button_link" => "/evidence",
+                "button_label" => "Explore Weleda",
+                "button_link" => "/product-category/natural-skincare/weleda/",
                 "image" => "/assets/evidence.webp",
-                "image_alt" => "Scientific Equipment"
+                "image_alt" => "Weleda Skincare"
             ],
             [
-                "title" => "Access",
+                "title" => "Pukka Herbs",
                 "description" =>
                 "<p>
-                    We believe that natural medicine will have a huge part to play in the healthcare of the
-                    21st Century. We are committed to ensuring the long term viability and availability of
-                    herbal medicine, to ensure as many people as possible can benefit from the potentially
-                    life changing treatments this tradition has to offer.
+                Pukka's purpose is to nurture healthier, happier lives through powerful organic plants. By nurturing mutually benevolent relationships with farmers, 
+                sourcing partners, and everyone who works for us, and with us, we strive to build a sustainable future for all. We hope you feel inspired to discover 
+                more about yourself and the beautiful planet on which we all live.
                 </p>
                 ",
-                "button_label" => "More about Access",
-                "button_link" => "/access",
+                "button_label" => "Explore Pukka",
+                "button_link" => "/product-category/food-drink/herbal-tea/pukka/",
                 "image" => "/assets/access.webp",
-                "image_alt" => "Wooden gate in field"
+                "image_alt" => "Pukka Herbs"
             ],
             [
-                "title" => "Sustainability",
+                "title" => "Monty Bojangles",
                 "description" =>
                 "<p>
-                    We believe that truly sustainable businesses must consider all aspects of their operating
-                    processes and strive to create long lasting benefits for customers, employees, the
-                    community and the wider environment.
+                Monty Bojangles is a London based UK confectionery brand famous for its curiously moreish award winning cocoa dusted truffles. Their Truffles are made 
+                with a unique and utterly delicious recipe carefully crafted to deliver the most indulgently chocolatey experience imaginable.
                 </p>
                 ",
-                "button_label" => "More about Sustainability",
-                "button_link" => "/sustainability",
+                "button_label" => "Explore Monty Bojangles",
+                "button_link" => "/product-category/food-drink/chocolate/",
                 "image" => "/assets/sustainability.webp",
-                "image_alt" => "Plant shoot"
+                "image_alt" => "Monty Bojangles"
             ],
             [
-                "title" => "Quality",
+                "title" => "A. Vogel",
                 "description" =>
                 "<p>
-                    With more than 30 years of experience, our Technical Team continues its commitment to
-                    ensuring our product safety and quality systems are to the highest standards.
-                    Experienced chemists, pharmacists, and herbal experts work on the analysis of the
-                    goods in our modern in-house laboratory.
+                Alfred Vogel was the Swiss pioneer of natural health. Throughout his life, he championed the use of natural remedies in healthcare and this has contributed 
+                to increased recognition of the distinct role herbal medicines can play in the modern world we live in.
                 </p>
                 ",
-                "button_label" => "More about Quality",
-                "button_link" => "/quality",
+                "button_label" => "Explore A. Vogel",
+                "button_link" => "/product-category/herbal-remedies/a-vogel/",
                 "image" => "/assets/quality.webp",
-                "image_alt" => "Scientific Equipment"
+                "image_alt" => "A. Vogel"
             ]
         ];
 
-        //renderCards($featureCards, "c-cards--wide");
+        renderCards($featureCards, "c-cards--wide");
 
 
 

@@ -189,7 +189,7 @@ get_header();
                 </p>",
                 "button_label" => "Explore Weleda",
                 "button_link" => "/product-category/natural-skincare/weleda/",
-                "image" => "/assets/evidence.webp",
+                "image" => "/assets/weleda.jpg",
                 "image_alt" => "Weleda Skincare"
             ],
             [
@@ -203,7 +203,7 @@ get_header();
                 ",
                 "button_label" => "Explore Pukka",
                 "button_link" => "/product-category/food-drink/herbal-tea/pukka/",
-                "image" => "/assets/access.webp",
+                "image" => "/assets/pukka.jpg",
                 "image_alt" => "Pukka Herbs"
             ],
             [
@@ -216,7 +216,7 @@ get_header();
                 ",
                 "button_label" => "Explore Monty Bojangles",
                 "button_link" => "/product-category/food-drink/chocolate/",
-                "image" => "/assets/sustainability.webp",
+                "image" => "/assets/montybojangles.jpg",
                 "image_alt" => "Monty Bojangles"
             ],
             [
@@ -229,7 +229,7 @@ get_header();
                 ",
                 "button_label" => "Explore A. Vogel",
                 "button_link" => "/product-category/herbal-remedies/a-vogel/",
-                "image" => "/assets/quality.webp",
+                "image" => "/assets/avogel.jpg",
                 "image_alt" => "A. Vogel"
             ]
         ];

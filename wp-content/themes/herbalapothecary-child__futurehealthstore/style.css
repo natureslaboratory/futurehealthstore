@@ -49,3 +49,24 @@
     border-radius: 5px;
     font-weight: 400;
 } */
+
+.woocommerce ul.products li.product a img {
+    height: 180px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1450px) {
+    .woocommerce ul.products li.product a img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .woocommerce ul.products li.product a img {
+        height: 130px;
+    }
+}
+
+.woocommerce div.product div.images img {
+    object-fit: contain;
+}

@@ -115,93 +115,47 @@ get_header();
         <?php }
         $certCards = [
             [
-                "title" => "Herb Mark",
-                "description" => "<p>Herbal Apothecary are part of the BHMA's
-                                            Herb Mark Scheme. This scheme is
-                                            designed to ensure the quality and safety of
-                                            herbal products by requiring manufacturers
-                                            of herbal products to adopt a common
-                                            Quality Management System. Herbal
-                                            Apothecary are one of a small selection of
-                                            herbal remedy manufacturers who currently
-                                            meet this standard.</p>",
-                "button_label" => "More about Quality",
-                "button_link" => "/quality",
-                "image" => "/assets/herbmark.svg",
-                "image_alt" => "Herbmark Logo"
+                "title" => "Never More than RRP",
+                "description" => "<p>At Future Health Store we never sell products for more than the RRP. This way, our customers know they're getting charged fairly for the items they purchase.</p>",
+                "button_label" => "Our Price Promise",
+                "button_link" => "/price-promise/",
+                "image" => "/assets/price.jpg",
+                "image_alt" => "Our Price Promise"
             ],
             [
-                "title" => "Organic Certification",
-                "description" =>
-                "<p>
-                            Herbal Apothecary are a producer of organic
-                            products and as such have been awarded
-                            organic certification. Our range of organic
-                            tinctures and herbs sit alongside our nonorganic
-                            products.
-                        </p>
-                        <p>
-                            We believe organic products are better for
-                            growers, better for the environment and
-                            ultimately better for consumers.
-                        </p>
-                        ",
-                "button_label" => "Why Organic is Better",
-                "button_link" => "/organic",
-                "image" => "/assets/organic.svg",
-                "image_alt" => "Organic Certification Logo"
+                "title" => "Not For Proft",
+                "description" => "<p>Future Health Store is run by Common Cause which is a not-for-profit community interest company. We're based in Whitby, on the beautiful Yorkshire coast.</p>",
+                "button_label" => "Not For Profit",
+                "button_link" => "/not-for-profit/",
+                "image" => "/assets/notforprofit.jpg",
+                "image_alt" => "Not for Profit"
             ],
             [
-                "title" => "ISO 9001:2015",
-                "description" =>
-                "<p>
-                            At Herbal Apothecary we continually assess
-                            our business systems and processes as
-                            part of our ISO 9001 QMS. As a result, our
-                            business undergoes a process of continual
-                            improvement.
-                        </p>
-                        <p>
-                            Our systems are designed to help us
-                            identify potential problems before they arise,
-                            ensuring the quality of our products.
-                        </p>
-                        ",
-                "button_label" => "Manufacturing Innovation",
-                "button_link" => "/manufacturing",
-                "image" => "/assets/ISO.svg",
-                "image_alt" => "ISO Logo"
+                "title" => "Ethical Goods",
+                "description" => "<p>We work hard to ensure that all the products we stock are produced and traded as ethically as possible. We also stock items produced locally, reducing transport emissions.</p>",
+                "button_label" => "Ethical Goods",
+                "button_link" => "/ethical/",
+                "image" => "/assets/ethical.jpg",
+                "image_alt" => "Ethically Traded Goods"
             ],
             [
-                "title" => "Living Wage Employer",
-                "description" =>
-                "<p>
-                            We pay all our staff the Living Wage. This is
-                            a higher rate than the standard minimum
-                            wage and reflects the actual cost of living.
-                            As well as this, Herbal Apothecary provide
-                            paid compassionate leave, holiday
-                            allowances which increase each year and a
-                            paid volunteering day to give our staff the
-                            opportunity to support community initiatives
-                            of their choice.
-                        </p>
-                        ",
-                "button_label" => "About our Company",
-                "button_link" => "/about-us",
-                "image" => "/assets/livingwage.svg",
-                "image_alt" => "Living Wage Employer Logo"
-            ]
+                "title" => "Earn 5% Dividend",
+                "description" => "<p>Every time you shop at futurehealthstore.com you'll earn a 5% dividend which you can claim back against future purchase. The more you shop, the more you get back!</p>",
+                "button_label" => "Dividend",
+                "button_link" => "/dividend/",
+                "image" => "/assets/dividend.jpg",
+                "image_alt" => "Dividend Payments"
+            ],
         ];
 
 
-        //renderCards($certCards);
+        renderCards($certCards);
         ?>
 
         <div class="c-newsletter">
             <div>
                 <h3>Sign Up for our Mailing List</h3>
-                <form class="c-newsletter__signup" action="https://buttondown.email/api/emails/embed-subscribe/herbalapothecary" method="post" target="popupwindow" onsubmit="window.open('https:\//buttondown.email/herbalapothecary', 'popupwindow')" class="embeddable-buttondown-form">
+                <form class="c-newsletter__signup" action="https://buttondown.email/api/emails/embed-subscribe/futurehealthstore" method="post" target="popupwindow" onsubmit="window.open('https:\//buttondown.email/futurehealthstore', 'popupwindow')" class="embeddable-buttondown-form">
                     <label for="bd-email" style="font-weight:700">Enter your email</label>
                     <input type="email" name="email" id="bd-email" />
                     <input type="hidden" value="1" name="embed" />
@@ -212,7 +166,6 @@ get_header();
                 <h3>Follow Us on Social Media</h3>
                 <div class="c-socials">
                     <a aria-label="Our Facebook Page" target="_blank" rel="noreferrer" href="https://www.facebook.com/futurehealthstore/"><i class="fab fa-facebook-square"></i></a>
-                    <a aria-label="Our Twitter Page" target="_blank" rel="noreferrer" href="https://twitter.com/herbalapoth?lang=en"><i class="fab fa-twitter-square"></i></a>
                     <a aria-label="Our Instagram Page" target="_blank" rel="noreferrer" href="https://www.instagram.com/futurehealthstore/"><i class="fab fa-instagram-square"></i></a>
                 </div>
             </div>

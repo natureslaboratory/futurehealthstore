@@ -17,8 +17,24 @@
 		<div class="c-footer__herbal">
 			<?php the_custom_logo() ?>
 			<p>
-				Future Health Store
+				Future Health Store is run by The Dispensary, a not-for-profit community interest company based in Whitby, North Yorkshire.
 			</p>
+		</div>
+		<div class="c-footer__accreditations">
+			<h2>Accreditations</h2>
+			<p>
+<!--
+				We are proud to be a real Living Wage employer with ISO9001:2015 quality management
+				systems and organic certification.
+-->
+			</p>
+			<div class="c-footer__accreditations-logos">
+<!--
+				<a rel="noreferrer" href="https://www.livingwage.org.uk/" target="_blank"><img src="/wp-content/uploads/2021/09/living-wage.png" width="106px" height="84px" alt="Living Wage"></a>
+				<a href="/quality/" title="High Quality Herbal Products"><img src="/wp-content/uploads/2021/09/cqs.png" alt="CQS" width="72px" height="90px" loading="lazy"></a>
+				<a href="/organic/" title="Organic Herbal Products"><img src="/wp-content/uploads/2021/09/euorg.png" alt="euorg" width="138px" height="92px" loading="lazy"></a>
+-->
+			</div>
 		</div>
 		<div class="c-footer__info c-footer__column">
 			<h2>Company Info</h2>
@@ -37,8 +53,8 @@
 			<p>
 				Find us on the following social channels
 			</p>
-			<a href="https://twitter.com/futurehealthsto?lang=en" class="c-footer__social-link">
-				<i class="fab fa-twitter"></i><span>Twitter</span>
+			<a href="https://instagram.com/futurehealthstore" class="c-footer__social-link">
+				<i class="fab fa-instagram"></i><span>Instagram</span>
 			</a>
 			<a href="https://www.facebook.com/futurehealthstore/" class="c-footer__social-link">
 				<i class="fab fa-facebook-f"></i><span>Facebook</span>
@@ -57,7 +73,6 @@
 <?php wp_footer(); ?>
 
 
-
 <!-- Matomo -->
 <script>
   var _paq = window._paq = window._paq || [];
@@ -67,7 +82,7 @@
   (function() {
     var u="https://analytics.natureslaboratory.co.uk/";
     _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
+    _paq.push(['setSiteId', '5']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();

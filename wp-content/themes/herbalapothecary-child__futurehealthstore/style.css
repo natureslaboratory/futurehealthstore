@@ -87,3 +87,11 @@
 .c-calculator-banner.text-white h2, .c-calculator-banner.text-white p{
 	color:#fff;
 }
+
+a.c-calculator-banner{
+	background-position:center center;
+}
+
+.c-specials__option{
+	background-position: top;
+}

@@ -70,3 +70,7 @@
 .woocommerce div.product div.images img {
     object-fit: contain;
 }
+
+.c-carousel{
+	background-image:url('/wp-content/uploads/2021/11/hero.jpg');
+}

@@ -95,3 +95,23 @@ a.c-calculator-banner{
 .c-specials__option{
 	background-position: top;
 }
+
+.c-dividend{
+	background:var(--primary);
+	text-align: center;
+}
+
+.c-dividend p{
+	margin:0;
+	font-weight:700;
+	font-size:1.2rem;
+}
+
+.c-dividend a{
+	color:#fff;
+	padding:1rem;
+}
+
+.c-dividend:hover{
+	background:#81b5ce;
+}

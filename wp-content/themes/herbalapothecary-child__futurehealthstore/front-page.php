@@ -22,6 +22,9 @@ get_header();
                 </div>
             </div>
         </div>
+        <div class="c-dividend">
+	        <p><a href="/my-account">Join Futurehealth Store community and get your 5% dividend</a></p>
+        </div>
         <div class="c-promises">
             <div class="c-promises__promise">
                 <i class="fas fa-capsules"></i>

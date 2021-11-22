@@ -49,3 +49,45 @@
     border-radius: 5px;
     font-weight: 400;
 } */
+
+.c-carousel{
+	background-image:url('/wp-content/uploads/2021/11/hero.jpg');
+}
+
+.c-calculator-banner.text-white h2, .c-calculator-banner.text-white p{
+	color:#fff;
+}
+
+a.c-calculator-banner{
+	background-position:center center;
+}
+
+.c-specials__option{
+	background-position: top;
+}
+
+.c-dividend{
+	background:var(--primary);
+	text-align: center;
+}
+
+.c-dividend p{
+	margin:0;
+	font-weight:700;
+	font-size:1.2rem;
+}
+
+.c-dividend a{
+	color:#fff;
+	padding:1rem;
+	display:block;
+	text-decoration: none;
+}
+
+.c-dividend a:hover{
+	color:#fff;
+}
+
+.c-dividend:hover{
+	background:#81b5ce;
+}

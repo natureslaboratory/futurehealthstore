@@ -22,6 +22,9 @@ get_header();
                 </div>
             </div>
         </div>
+        <div class="c-dividend">
+	        <p><a href="/my-account">Join Futurehealth Store community and get your 5% dividend</a></p>
+        </div>
         <div class="c-promises">
             <div class="c-promises__promise">
                 <i class="fas fa-capsules"></i>
@@ -53,47 +56,47 @@ get_header();
             </div>
         </div>
         <div class="c-specials">
-            <a class="c-specials__option" href="/product-category/natural-skincare/" style="background-image: url(/wp-content/uploads/2021/09/Oral_Health_Range_2-scaled.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/natural-skincare/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
                 <h2>Natural Skincare</h2>
                 <h3>Explore our range of natural skincare from leading brands.</h3>
                 <p>Shop Weleda, Faith in Nature & Sweet Cecily's.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option" href="/product-category/food-drink/" style="background-image: url(/wp-content/uploads/2021/09/herb-2.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/food-drink/" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_61195340-scaled.jpeg)">
                 <h2>Food & Drink</h2>
                 <h3>Delicious herbal teas & coffee, wholefoods & snacks.</h3>
                 <p>Take care of your body from the inside out.</p>
                 <button class="c-button">Shop Now</button>
             </a>
         </div>
-        <a href="/product-category/natural-skincare/sweet-cecilys/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/10/AdobeStock_354372002-scaled.jpeg.webp)">
-            <h2>Sweet Cecily's<br><strong>Natural Skincare</strong></h2>
+        <a href="/product-category/herbal-remedies/" class="c-calculator-banner text-white" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_2498696831-scaled.jpeg)">
+            <h2>Herbal Remedies<br><strong>The Power of Plants</strong></h2>
             <div>
-                <p><strong>Ethically produced natural products</strong></p>
-                <p>Hand and face creams, lip balms, body butters and more.</p>
-                <p>Treat your skin well this winter!</p>
+                <p><strong>Explore herbal remedies from A. Vogel & Others</strong></p>
+                <p>Help your body cope with the demands of life.</p>
+                <p>Naturally strengthen your immune system.</p>
             </div>
         </a>
         <div class="c-specials">
-            <a class="c-specials__option" href="/product-category/vitamins-supplements/" style="background-image: url(/wp-content/uploads/2021/09/Oral_Health_Range_2-scaled.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/vitamins-supplements/" style="background-image: url(/wp-content/uploads/2021/11/AdobeStock_90653578-scaled.jpeg)">
                 <h2>Vitamins & Supplements</h2>
                 <h3>Give your health and wellbeing a boost.</h3>
                 <p>Choose from a wide range of health supplements.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option" href="/product-category/vitamins-supplements/propolis/" style="background-image: url(/wp-content/uploads/2021/09/herb-2.jpg.webp)">
+            <a class="c-specials__option" href="/product-category/vitamins-supplements/propolis/" style="background-image: url(/wp-content/uploads/2021/11/Whole_Health_Range-scaled.jpg)">
                 <h2>Propolis Healthcare</h2>
                 <h3>Explore the BeeVital Propolis range.</h3>
                 <p>Give your immunity a natural boost this winter.</p>
                 <button class="c-button">Shop Now</button>
             </a>
         </div>
-        <a href="//product-category/herbal-remedies/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/10/AdobeStock_354372002-scaled.jpeg.webp)">
-            <h2>Herbal Remedies<br><strong>The Power of Plants</strong></h2>
+        <a href="/product-category/natural-skincare/sweet-cecilys/" class="c-calculator-banner" style="background-image: url(/wp-content/uploads/2021/11/SC0017-0018-Grouped-scaled.jpg)">
+            <h2>Sweet Cecily's<br><strong>Natural Skincare</strong></h2>
             <div>
-                <p><strong>Explore herbal remedies from A. Vogel & Others</strong></p>
-                <p>Help your body cope with the demands of life.</p>
-                <p>Naturally strengthen your immune system.</p>
+                <p><strong>Ethically produced natural products</strong></p>
+                <p>Hand and face creams, lip balms, body butters and more.</p>
+                <p>Treat your skin well this winter!</p>
             </div>
         </a>
         <?php
@@ -115,93 +118,47 @@ get_header();
         <?php }
         $certCards = [
             [
-                "title" => "Herb Mark",
-                "description" => "<p>Herbal Apothecary are part of the BHMA's
-                                            Herb Mark Scheme. This scheme is
-                                            designed to ensure the quality and safety of
-                                            herbal products by requiring manufacturers
-                                            of herbal products to adopt a common
-                                            Quality Management System. Herbal
-                                            Apothecary are one of a small selection of
-                                            herbal remedy manufacturers who currently
-                                            meet this standard.</p>",
-                "button_label" => "More about Quality",
-                "button_link" => "/quality",
-                "image" => "/assets/herbmark.svg",
-                "image_alt" => "Herbmark Logo"
+                "title" => "Never More than RRP",
+                "description" => "<p>At Future Health Store we never sell products for more than the RRP. This way, our customers know they're getting charged fairly for the items they purchase.</p>",
+                "button_label" => "Our Price Promise",
+                "button_link" => "/price-promise/",
+                "image" => "/assets/price.jpg",
+                "image_alt" => "Our Price Promise"
             ],
             [
-                "title" => "Organic Certification",
-                "description" =>
-                "<p>
-                            Herbal Apothecary are a producer of organic
-                            products and as such have been awarded
-                            organic certification. Our range of organic
-                            tinctures and herbs sit alongside our nonorganic
-                            products.
-                        </p>
-                        <p>
-                            We believe organic products are better for
-                            growers, better for the environment and
-                            ultimately better for consumers.
-                        </p>
-                        ",
-                "button_label" => "Why Organic is Better",
-                "button_link" => "/organic",
-                "image" => "/assets/organic.svg",
-                "image_alt" => "Organic Certification Logo"
+                "title" => "Not For Proft",
+                "description" => "<p>Future Health Store is run by Common Cause which is a not-for-profit community interest company. We're based in Whitby, on the beautiful Yorkshire coast.</p>",
+                "button_label" => "Not For Profit",
+                "button_link" => "/not-for-profit/",
+                "image" => "/assets/notforprofit.jpg",
+                "image_alt" => "Not for Profit"
             ],
             [
-                "title" => "ISO 9001:2015",
-                "description" =>
-                "<p>
-                            At Herbal Apothecary we continually assess
-                            our business systems and processes as
-                            part of our ISO 9001 QMS. As a result, our
-                            business undergoes a process of continual
-                            improvement.
-                        </p>
-                        <p>
-                            Our systems are designed to help us
-                            identify potential problems before they arise,
-                            ensuring the quality of our products.
-                        </p>
-                        ",
-                "button_label" => "Manufacturing Innovation",
-                "button_link" => "/manufacturing",
-                "image" => "/assets/ISO.svg",
-                "image_alt" => "ISO Logo"
+                "title" => "Ethical Goods",
+                "description" => "<p>We work hard to ensure that all the products we stock are produced and traded as ethically as possible. We also stock items produced locally, reducing transport emissions.</p>",
+                "button_label" => "Ethical Goods",
+                "button_link" => "/ethical/",
+                "image" => "/assets/ethical.jpg",
+                "image_alt" => "Ethically Traded Goods"
             ],
             [
-                "title" => "Living Wage Employer",
-                "description" =>
-                "<p>
-                            We pay all our staff the Living Wage. This is
-                            a higher rate than the standard minimum
-                            wage and reflects the actual cost of living.
-                            As well as this, Herbal Apothecary provide
-                            paid compassionate leave, holiday
-                            allowances which increase each year and a
-                            paid volunteering day to give our staff the
-                            opportunity to support community initiatives
-                            of their choice.
-                        </p>
-                        ",
-                "button_label" => "About our Company",
-                "button_link" => "/about-us",
-                "image" => "/assets/livingwage.svg",
-                "image_alt" => "Living Wage Employer Logo"
-            ]
+                "title" => "Earn 5% Dividend",
+                "description" => "<p>Every time you shop at futurehealthstore.com you'll earn a 5% dividend which you can claim back against future purchase. The more you shop, the more you get back!</p>",
+                "button_label" => "Dividend",
+                "button_link" => "/dividend/",
+                "image" => "/assets/dividend.jpg",
+                "image_alt" => "Dividend Payments"
+            ],
         ];
 
 
-        //renderCards($certCards);
+        renderCards($certCards);
         ?>
 
         <div class="c-newsletter">
             <div>
                 <h3>Sign Up for our Mailing List</h3>
-                <form class="c-newsletter__signup" action="https://buttondown.email/api/emails/embed-subscribe/herbalapothecary" method="post" target="popupwindow" onsubmit="window.open('https:\//buttondown.email/herbalapothecary', 'popupwindow')" class="embeddable-buttondown-form">
+                <form class="c-newsletter__signup" action="https://buttondown.email/api/emails/embed-subscribe/futurehealthstore" method="post" target="popupwindow" onsubmit="window.open('https:\//buttondown.email/futurehealthstore', 'popupwindow')" class="embeddable-buttondown-form">
                     <label for="bd-email" style="font-weight:700">Enter your email</label>
                     <input type="email" name="email" id="bd-email" />
                     <input type="hidden" value="1" name="embed" />
@@ -212,7 +169,6 @@ get_header();
                 <h3>Follow Us on Social Media</h3>
                 <div class="c-socials">
                     <a aria-label="Our Facebook Page" target="_blank" rel="noreferrer" href="https://www.facebook.com/futurehealthstore/"><i class="fab fa-facebook-square"></i></a>
-                    <a aria-label="Our Twitter Page" target="_blank" rel="noreferrer" href="https://twitter.com/herbalapoth?lang=en"><i class="fab fa-twitter-square"></i></a>
                     <a aria-label="Our Instagram Page" target="_blank" rel="noreferrer" href="https://www.instagram.com/futurehealthstore/"><i class="fab fa-instagram-square"></i></a>
                 </div>
             </div>
@@ -221,24 +177,6 @@ get_header();
         <div class="c-home-categories">
             <h2>Product Categories</h2>
             <?php
-            // $args = [
-            //     'post_type' => ["product"],
-            //     'meta_key' => 'total_sales',
-            //     'orderby' => 'meta_value_num',
-            //     'order' => 'desc',
-            //     'posts_per_page' => 12
-            // ];
-
-            // $popular_products = new WP_Query($args);
-
-            // if ($popular_products->have_posts()) :
-            //     while ($popular_products->have_posts()) :
-            //         $popular_products->the_post();
-            //         get_template_part('template-parts/product-thumbnail');
-            //     endwhile;
-            // endif;
-
-            // wp_reset_postdata();
             echo get_template_part("template-parts/product-categories", "categories");
             ?>
         </div>
@@ -246,66 +184,60 @@ get_header();
 
         $featureCards = [
             [
-                "title" => "Evidence",
+                "title" => "Weleda",
                 "description" => "
                 <p>
-                At Herbal Apothecary we seek to produce natural medicines of the highest quality. We
-                manufacture under ISO9001:2015 and Organic certification and according to HACCP
-                and GMP principles. We are supported in our work by highly qualified scientific
-                personnel.
+                Weleda has been growing plants organically and creating natural health and wellbeing products for 100 years. At Weleda, they place very high 
+                demands on the ingredients used in their products and are proudly NATRUE certified, the first internationally recognised quality seal for organic and natural beauty products. 
                 </p>",
-                "button_label" => "More about Evidence",
-                "button_link" => "/evidence",
-                "image" => "/assets/evidence.webp",
-                "image_alt" => "Scientific Equipment"
+                "button_label" => "Explore Weleda",
+                "button_link" => "/product-category/natural-skincare/weleda/",
+                "image" => "/assets/weleda.jpg",
+                "image_alt" => "Weleda Skincare"
             ],
             [
-                "title" => "Access",
+                "title" => "Pukka Herbs",
                 "description" =>
                 "<p>
-                    We believe that natural medicine will have a huge part to play in the healthcare of the
-                    21st Century. We are committed to ensuring the long term viability and availability of
-                    herbal medicine, to ensure as many people as possible can benefit from the potentially
-                    life changing treatments this tradition has to offer.
+                Pukka's purpose is to nurture healthier, happier lives through powerful organic plants. By nurturing mutually benevolent relationships with farmers, 
+                sourcing partners, and everyone who works for us, and with us, we strive to build a sustainable future for all. We hope you feel inspired to discover 
+                more about yourself and the beautiful planet on which we all live.
                 </p>
                 ",
-                "button_label" => "More about Access",
-                "button_link" => "/access",
-                "image" => "/assets/access.webp",
-                "image_alt" => "Wooden gate in field"
+                "button_label" => "Explore Pukka",
+                "button_link" => "/product-category/food-drink/herbal-tea/pukka/",
+                "image" => "/assets/pukka.jpg",
+                "image_alt" => "Pukka Herbs"
             ],
             [
-                "title" => "Sustainability",
+                "title" => "Monty Bojangles",
                 "description" =>
                 "<p>
-                    We believe that truly sustainable businesses must consider all aspects of their operating
-                    processes and strive to create long lasting benefits for customers, employees, the
-                    community and the wider environment.
+                Monty Bojangles is a London based UK confectionery brand famous for its curiously moreish award winning cocoa dusted truffles. Their Truffles are made 
+                with a unique and utterly delicious recipe carefully crafted to deliver the most indulgently chocolatey experience imaginable.
                 </p>
                 ",
-                "button_label" => "More about Sustainability",
-                "button_link" => "/sustainability",
-                "image" => "/assets/sustainability.webp",
-                "image_alt" => "Plant shoot"
+                "button_label" => "Explore Monty Bojangles",
+                "button_link" => "/product-category/food-drink/chocolate/",
+                "image" => "/assets/montybojangles.jpg",
+                "image_alt" => "Monty Bojangles"
             ],
             [
-                "title" => "Quality",
+                "title" => "A. Vogel",
                 "description" =>
                 "<p>
-                    With more than 30 years of experience, our Technical Team continues its commitment to
-                    ensuring our product safety and quality systems are to the highest standards.
-                    Experienced chemists, pharmacists, and herbal experts work on the analysis of the
-                    goods in our modern in-house laboratory.
+                Alfred Vogel was the Swiss pioneer of natural health. Throughout his life, he championed the use of natural remedies in healthcare and this has contributed 
+                to increased recognition of the distinct role herbal medicines can play in the modern world we live in.
                 </p>
                 ",
-                "button_label" => "More about Quality",
-                "button_link" => "/quality",
-                "image" => "/assets/quality.webp",
-                "image_alt" => "Scientific Equipment"
+                "button_label" => "Explore A. Vogel",
+                "button_link" => "/product-category/herbal-remedies/a-vogel/",
+                "image" => "/assets/avogel.jpg",
+                "image_alt" => "A. Vogel"
             ]
         ];
 
-        //renderCards($featureCards, "c-cards--wide");
+        renderCards($featureCards, "c-cards--wide");
 
 
 

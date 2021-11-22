@@ -117,5 +117,16 @@
 					<?php echo get_template_part("template-parts/header-search", "search") ?>
 				</div>
 			</nav>
+			<?php
+			if (is_front_page()) :
+			?>
+				<div class="c-banner l-block l-block--no-padding">
+					<div class="l-restrict">
+						<h3>Never More Than RRP &bull; Earn 5% Dividend on Every Purchase</h3>
+					</div>
+				</div>
+			<?php
+			endif;
+			?>
 		</header>
 		<div id="content">

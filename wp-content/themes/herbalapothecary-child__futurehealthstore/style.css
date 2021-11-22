@@ -110,6 +110,12 @@ a.c-calculator-banner{
 .c-dividend a{
 	color:#fff;
 	padding:1rem;
+	display:block;
+	text-decoration: none;
+}
+
+.c-dividend a:hover{
+	color:#fff;
 }
 
 .c-dividend:hover{

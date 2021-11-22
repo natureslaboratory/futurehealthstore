@@ -24,5 +24,3 @@ function fh_change_logo_class($html)
 
     return $html;
 }
-
-remove_filter( 'woocommerce_product_loop_start', 'woocommerce_maybe_show_product_subcategories' );

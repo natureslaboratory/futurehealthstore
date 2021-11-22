@@ -146,6 +146,7 @@ do_action('woocommerce_before_cart'); ?>
 	<div class="c-cart__buttons">
 		<a style="opacity: 1" class="button" href="<?= get_permalink(wc_get_page_id('shop')); ?>">Back To Shop</a>
 		<button type="submit" class="button" name="update_cart" value="<?php esc_attr_e('Update cart', 'woocommerce'); ?>"><?php esc_html_e('Update cart', 'woocommerce'); ?></button>
+		<?php wp_nonce_field( 'woocommerce-cart', 'woocommerce-cart-nonce' ); ?>
 	</div>
 </form>
 

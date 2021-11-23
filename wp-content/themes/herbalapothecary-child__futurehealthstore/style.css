@@ -147,3 +147,10 @@ a.c-calculator-banner{
 :is(.woocommerce div.product form.cart:not(.variations_form), .woocommerce-variation-add-to-cart)::after {
     display:none;
 }
+
+
+.woocommerce-form-register.register.c-register:not(.hide) {
+    grid-template-columns: 1fr;
+    width: 300px;
+    gap: 0;
+}

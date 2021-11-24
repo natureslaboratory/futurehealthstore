@@ -66,7 +66,7 @@ if (post_password_required()) {
 	<div class="c-product-full__sidebar">
 		<i class="fas fa-globe"></i>
 		<p>
-			We aim to dispatch products within 1 working day.
+			We aim to dispatch products within 2 working days.
 		</p>
 		<i class="fas fa-mobile-alt"></i>
 		<p>

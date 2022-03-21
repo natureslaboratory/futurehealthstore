@@ -1,2 +1,2 @@
-# futurehealthstore
+# herbjar
 A Child Theme for herbalapothecary

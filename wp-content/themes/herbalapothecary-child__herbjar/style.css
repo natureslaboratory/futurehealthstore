@@ -229,3 +229,18 @@ input.c-search__box{
 .woocommerce div.product .woocommerce-tabs ul.tabs{
 	display:none !important;
 }
+
+p{
+	max-width:60ch;
+}
+
+blockquote{
+	border-left:10px solid var(--yellow);
+	padding-left:20px;
+	max-width:60ch;
+}
+
+cite{
+	padding-left:30px;
+	font-size:0.9rem;
+}

@@ -51,7 +51,7 @@ do_action('woocommerce_before_main_content');
 		}
 		
 		<?php if ( is_product_category() ){ ?>
-		   <h1><?php single_term_title(); ?></h1>
+		   <h1>title</h1>
 		<?php }
 
 		echo "<div class='c-shop__grid c-shop__grid--category'>";

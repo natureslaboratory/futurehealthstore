@@ -100,6 +100,10 @@ a.c-calculator-banner{
     margin-top: unset;
 }
 
+input.c-search__box{
+	border-left:1px solid #ccc;
+}
+
 .c-quantity {
     min-width: 90px;
 }

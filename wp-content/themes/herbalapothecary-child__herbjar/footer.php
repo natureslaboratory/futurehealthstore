@@ -17,7 +17,6 @@
 		<div class="c-footer__herbal">
 			<?php the_custom_logo() ?>
 			<p>Enjoy the regenerative and anti-ageing benefits of healthy and nourishing ingredients, with zero exposure to potentially harmful chemicals.</p>
-			<p>​The Herbjar's skin care products are rich in natural moisturising factors, antioxidants, vitamins and other active ingredients that will protect, condition and regenerate your skin.</p>
 		</div>
 		<div class="c-footer__accreditations">
 			<h2>Accreditations</h2>
@@ -26,24 +25,23 @@
 				systems and organic certification.
 			</p>
 			<div class="c-footer__accreditations-logos">
-				<a rel="noreferrer" href="https://www.livingwage.org.uk/" target="_blank"><img src="/wp-content/uploads/2021/09/living-wage.png" width="106px" height="84px" alt="Living Wage"></a>
-				<img src="/wp-content/uploads/2021/09/cqs.png" alt="CQS" width="72px" height="90px" loading="lazy">
-				<img src="/wp-content/uploads/2021/09/euorg.png" alt="euorg" width="138px" height="92px" loading="lazy">
+				<a rel="noreferrer" href="https://www.livingwage.org.uk/" target="_blank"><img src="/wp-content/uploads/2022/03/living_wage_employer.webp" width="106px" height="84px" alt="Living Wage"></a>
 			</div>
 		</div>
 		<div class="c-footer__info c-footer__column">
 			<h2>Company Info</h2>
 			<a href="tel:+441947 602346">
-				01947 602346
+				<i class="fa fa-phone"></i> 01947 602346
 			</a>
-			<a href="mailto:info@futurehealthstore.com">
-				info@herbjar.co.uk
+			<a href="mailto:info@herbjar.co.uk">
+				<i class="fa fa-envelope"></i> info@herbjar.co.uk
 			</a>
 			<p>
-				Unit 3B, Enterprise Way, Whitby, North Yorkshire
+				<i class="fa fa-location-dot"></i> Unit 3B, Enterprise Way, Whitby, North Yorkshire
 			</p>
 		</div>
 		<div class="c-footer__social c-footer__column">
+<!--
 			<h2>Social</h2>
 			<p>
 				Find us on the following social channels
@@ -54,9 +52,7 @@
 			<a href="https://www.facebook.com/futurehealthstore/" class="c-footer__social-link">
 				<i class="fab fa-facebook-f"></i><span>Facebook</span>
 			</a>
-			<!-- <a href="https://www.youtube.com/channel/UCAm5dGGrJEPctkyFP7LclDA" class="c-footer__social-link">
-				<i class="fab fa-youtube"></i><span>Youtube</span>
-			</a> -->
+-->
 		</div>
 	</div> <!-- End .c-footer__top -->
 	<div class="c-footer__copywrite">

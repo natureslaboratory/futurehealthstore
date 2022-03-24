@@ -85,7 +85,7 @@ get_header();
                 <p>Formulated for sensitive skin.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option" href="/product-category/food-drink/">
+            <a class="c-specials__option bg-yellow" href="/product-category/food-drink/">
                 <h2>Sensitive Skin Moisturisers</h2>
                 <h3>Lock-in moisture with our natural creams.</h3>
                 <p>Create for people with sensitive skin.</p>
@@ -93,13 +93,13 @@ get_header();
             </a>
         </div>
         <div class="c-specials">
-            <a class="c-specials__option" href="/product-category/vitamins-supplements/">
+            <a class="c-specials__option bg-grey" href="/product-category/vitamins-supplements/">
                 <h2>Male Skincare</h2>
                 <h3>Skincare just for male skin.</h3>
                 <p>Totally natural, no additives or fragrances.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option" href="/product-category/vitamins-supplements/propolis/">
+            <a class="c-specials__option bg-dark-green" href="/product-category/vitamins-supplements/propolis/">
                 <h2>Discover Your Skin Type</h2>
                 <h3>Not sure what skin type you have?</h3>
                 <p>Check out our handy guide.</p>

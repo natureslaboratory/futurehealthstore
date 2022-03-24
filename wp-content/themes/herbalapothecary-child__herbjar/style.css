@@ -54,6 +54,12 @@ img.c-header__logo{
 	background:var(--grey);
 }
 
+.bg-dark-green h2,
+.bg-dark-green h3,
+.bg-dark-green p{
+	color:#fff;
+}
+
 @media screen and (min-width: 974px) {
     .c-footer__top {
         grid-template-columns: 1fr 1fr 1fr 1fr;

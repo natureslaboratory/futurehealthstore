@@ -16,6 +16,10 @@
     /* color: var(--primary, var(--green)); */
     --primary: #74b42a;
     --yellow: #fdcd00;
+    --orange: #D97904;
+    --green: #B9BF04;
+    --dark-green: #5A7302;
+    --grey: #f2f2f2;
 }
 
 .wc-block-product-categories-list.wc-block-product-categories-list--depth-1 {
@@ -32,6 +36,22 @@ img.c-header__logo{
 
 .bg-yellow{
 	background:var(--yellow);
+}
+
+.bg-orange{
+	background:var(--orange);
+}
+
+.bg-green{
+	background:var(--green);
+}
+
+.bg-dark-green{
+	background:var(--dark-green);
+}
+
+.bg-grey{
+	background:var(--grey);
 }
 
 @media screen and (min-width: 974px) {

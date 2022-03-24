@@ -226,6 +226,6 @@ input.c-search__box{
 	background:var(--grey);
 }
 
-.woocommerce-tabs{
+ul.tabs{
 	display:none;
 }

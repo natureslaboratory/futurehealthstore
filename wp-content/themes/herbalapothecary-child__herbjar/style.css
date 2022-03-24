@@ -108,6 +108,14 @@ input.c-search__box{
     min-width: 90px;
 }
 
+.c-breadcrumbs__inner a{
+	color: var(--primary);
+}
+
+.c-breadcrumbs__inner a:hover{
+	color:#69ab2e;
+}
+
 :is(.woocommerce div.product form.cart:not(.variations_form), .woocommerce-variation-add-to-cart) > button {
     padding-top: 0;
     padding-bottom: 0;

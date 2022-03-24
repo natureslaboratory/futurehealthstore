@@ -16,7 +16,7 @@
 		<header class="c-header">
 			<div class="c-header__inner l-restrict">
 				<?php the_custom_logo() ?>
-				<?php echo get_template_part("template-parts/header-search", "search", ["cat" => true]) ?>
+				<?php echo get_template_part("template-parts/header-search", "search", ["cat" => false]) ?>
 				<div class="c-header__buttons">
 					<div class="c-header__contact">
 						<i class="fas fa-phone-alt"></i>

@@ -221,3 +221,7 @@ input.c-search__box{
 	display:block;
 	background:transparent;
 }
+
+.c-navigation__menu li:hover{
+	background:var(--grey);
+}

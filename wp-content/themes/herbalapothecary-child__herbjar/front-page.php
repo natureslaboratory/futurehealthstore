@@ -53,7 +53,7 @@ get_header();
             </div>
         </div>
         <div class="c-specials quad">
-            <a class="c-specials__option" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
+            <a class="c-specials__option bg-yellow" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
                 <h2 class="large">Dry Skin</h2>
                 <div>
 	                <button class="c-button">Shop Now</button>

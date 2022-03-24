@@ -15,6 +15,7 @@
 * {
     /* color: var(--primary, var(--green)); */
     --primary: #74b42a;
+    --yellow: #fdcd00;
 }
 
 .wc-block-product-categories-list.wc-block-product-categories-list--depth-1 {
@@ -28,6 +29,10 @@ img.c-header__logo{
 .c-search {
     margin: 0;
 } 
+
+.bg-yellow{
+	background:var(--yellow);
+}
 
 @media screen and (min-width: 974px) {
     .c-footer__top {
@@ -184,4 +189,5 @@ input.c-search__box{
 
 .c-carousel__overlay{
 	display:block;
+	background:transparent;
 }

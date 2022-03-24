@@ -11,6 +11,9 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 
+$stock = $product->get_stock_quantity();
+echo "stock: ".$stock;
+
 ?>
 <div class="woocommerce-variation-add-to-cart variations_button">
 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>

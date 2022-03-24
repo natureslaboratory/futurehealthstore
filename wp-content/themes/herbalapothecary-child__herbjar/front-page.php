@@ -58,7 +58,7 @@ get_header();
                 <button class="c-button">Shop Now</button>
             </a>
             <a class="c-specials__option" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
-                <h2 class="large">Normal/Combination Skin</h2>
+                <h2 class="large">Normal Skin</h2>
                 <button class="c-button">Shop Now</button>
             </a>
             <a class="c-specials__option" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">

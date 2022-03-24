@@ -176,3 +176,8 @@ input.c-search__box{
     width: 300px;
     gap: 0;
 }
+
+.quad .c-specials__option{
+	display:grid;
+	grid-template-rows:200px auto;
+}

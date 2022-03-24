@@ -99,7 +99,7 @@ get_header();
                 <p>Totally natural, no additives or fragrances.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option bg-dark-green" href="/product-category/faq/#skintype">
+            <a class="c-specials__option bg-dark-green" href="/faq/#skintype">
                 <h2>Discover Your Skin Type</h2>
                 <h3>Not sure what skin type you have?</h3>
                 <p>Check out our handy guide.</p>

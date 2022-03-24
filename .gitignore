@@ -3,7 +3,7 @@
 /wp-content/*
 !/wp-content/themes
 /wp-content/themes/*
-!/wp-content/themes/herbalapothecary-child__futurehealthstore
+!/wp-content/themes/herbalapothecary-child__herbjar
 !.gitignore 
 !.cpanel.yml
-/wp-content/themes/herbalapothecary-child__futurehealthstore/node_modules
+/wp-content/themes/herbalapothecary-child__herbjar/node_modules

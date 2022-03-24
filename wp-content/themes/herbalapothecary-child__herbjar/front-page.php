@@ -106,6 +106,12 @@ get_header();
                 <button class="c-button">Find My Skin Type</button>
             </a>
         </div>
+        <div class="c-text">
+	        <h2>100% Natural Skincare</h2>
+	        <p>The Herbjar's skin care products are rich in natural moisturising factors, antioxidants, vitamins and other active ingredients that will protect, condition and regenerate your skin.</p>
+			<blockquote>&ldquo;The Herbjar is the most natural skin care range I have ever come across. Many brands claim to be natural, but the ingredient lists prove them otherwise. The Herbjar&rsquo;s ingredient lists live up to the &lsquo;natural&rsquo; promise and the products are exceptionally good. They give a healthy glow that you won’t get with any other products.&rdquo;</blockquote>
+			<cite>Carole, Aphrodite Nails and Beauty, King's Lynn</cite>
+        </div>
     </div>
 
 

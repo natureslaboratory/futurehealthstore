@@ -247,3 +247,7 @@ cite{
 	margin:1rem 0;
 	float:left;
 }
+
+.c-author{
+	display:none;
+}

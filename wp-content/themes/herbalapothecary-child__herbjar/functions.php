@@ -24,6 +24,7 @@ function remove_ha_redundant_actions()
     remove_action("woocommerce_register_form_start", "ha_register_top");
     remove_action("woocommerce_register_form", "ha_register_middle", 25);
     remove_action("woocommerce_register_form", "ha_register_bottom", 35);
+    remove_action('woocommerce_product_query', 'show_only_instock_products');
 }
 
 

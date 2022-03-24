@@ -50,7 +50,7 @@ do_action('woocommerce_before_main_content');
 			//get_template_part("template-parts/product-categories", "categories");
 		}
 		
-		if ( is_product_category() ){ ?>
+		if ( is_product_category() || is_product() ){ ?>
 		   <h1><?php single_term_title(); ?></h1>
 		<?php }
 

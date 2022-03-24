@@ -49,6 +49,12 @@ do_action('woocommerce_before_main_content');
 		if (is_shop() && !is_search()) {
 			//get_template_part("template-parts/product-categories", "categories");
 		}
+		
+		<?php if ( is_product_category() || is_product() ) : ?>
+		   <div class="page-header-image generate-page-header category-header">
+		       <div class="grid-container"><h1><?php single_term_title(); ?></h1></div>
+		</div> 
+		<?php endif; ?>
 
 		echo "<div class='c-shop__grid c-shop__grid--category'>";
 

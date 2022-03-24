@@ -53,25 +53,25 @@ get_header();
             </div>
         </div>
         <div class="c-specials quad">
-            <a class="c-specials__option bg-yellow" href="/product-category/sensitive-skin-cleansers/">
+            <a class="c-specials__option bg-yellow" href="/product-category/dry-skin/">
                 <h2 class="large">Dry Skin</h2>
                 <div>
 	                <button class="c-button">Shop Now</button>
                 </div>
             </a>
-            <a class="c-specials__option bg-dark-green" href="/product-category/sensitive-skin-cleansers/">
+            <a class="c-specials__option bg-dark-green" href="/product-category/normal-skin/">
                 <h2 class="large">Normal Skin</h2>
                 <div>
 	                <button class="c-button">Shop Now</button>
                 </div>
             </a>
-            <a class="c-specials__option bg-grey" href="/product-category/sensitive-skin-cleansers/">
+            <a class="c-specials__option bg-grey" href="/product-category/oily-skin/">
                 <h2 class="large">Oily Skin</h2>
                 <div>
 	                <button class="c-button">Shop Now</button>
                 </div>
             </a>
-            <a class="c-specials__option bg-green" href="/product-category/sensitive-skin-cleansers/">
+            <a class="c-specials__option bg-green" href="/product-category/mature-skin/">
                 <h2 class="large">Mature Skin</h2>
                 <div>
 	                <button class="c-button">Shop Now</button>
@@ -85,7 +85,7 @@ get_header();
                 <p>Formulated for sensitive skin.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option bg-yellow" href="/product-category/food-drink/">
+            <a class="c-specials__option bg-yellow" href="/product-category/sensitive-skin-moisturisers/">
                 <h2>Sensitive Skin Moisturisers</h2>
                 <h3>Lock-in moisture with our natural creams.</h3>
                 <p>Create for people with sensitive skin.</p>
@@ -93,13 +93,13 @@ get_header();
             </a>
         </div>
         <div class="c-specials">
-            <a class="c-specials__option bg-grey" href="/product-category/vitamins-supplements/">
+            <a class="c-specials__option bg-grey" href="/product-category/male-skincare/">
                 <h2>Male Skincare</h2>
                 <h3>Skincare just for male skin.</h3>
                 <p>Totally natural, no additives or fragrances.</p>
                 <button class="c-button">Shop Now</button>
             </a>
-            <a class="c-specials__option bg-dark-green" href="/product-category/vitamins-supplements/propolis/">
+            <a class="c-specials__option bg-dark-green" href="/product-category/faq/#skintype">
                 <h2>Discover Your Skin Type</h2>
                 <h3>Not sure what skin type you have?</h3>
                 <p>Check out our handy guide.</p>

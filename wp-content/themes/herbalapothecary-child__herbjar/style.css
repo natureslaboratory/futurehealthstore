@@ -101,7 +101,7 @@ a.c-calculator-banner{
 	background-position: top;
 }
 
-c-specials__option:hover{
+.c-specials__option:hover{
 	opacity: 0.8;
 }
 

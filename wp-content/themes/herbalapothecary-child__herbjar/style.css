@@ -108,6 +108,8 @@ a.c-calculator-banner{
     padding-top: 0;
     padding-bottom: 0;
     height: 100%;
+	padding: 1rem 1.4rem;
+	margin-top:1rem;
 }
 
 .woocommerce div.product form.cart:not(.variations_form), .woocommerce-variation-add-to-cart{
@@ -118,8 +120,6 @@ a.c-calculator-banner{
     height: 100%;
     padding-top: 0;
     padding-bottom: 0;
-    padding:1rem 1.4rem;
-    margin-top:1rem;
 }
 
 .c-button__cart-wrapper {

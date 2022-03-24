@@ -55,19 +55,27 @@ get_header();
         <div class="c-specials quad">
             <a class="c-specials__option" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
                 <h2 class="large">Dry Skin</h2>
-                <button class="c-button">Shop Now</button>
+                <div>
+	                <button class="c-button">Shop Now</button>
+                </div>
             </a>
             <a class="c-specials__option" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
                 <h2 class="large">Normal Skin</h2>
-                <button class="c-button">Shop Now</button>
+                <div>
+	                <button class="c-button">Shop Now</button>
+                </div>
             </a>
             <a class="c-specials__option" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
                 <h2 class="large">Oily Skin</h2>
-                <button class="c-button">Shop Now</button>
+                <div>
+	                <button class="c-button">Shop Now</button>
+                </div>
             </a>
             <a class="c-specials__option" href="/product-category/sensitive-skin-cleansers/" style="background-image: url(/wp-content/uploads/2021/11/IMG_3694_preview.jpg)">
                 <h2 class="large">Mature Skin</h2>
-                <button class="c-button">Shop Now</button>
+                <div>
+	                <button class="c-button">Shop Now</button>
+                </div>
             </a>
         </div>
         <div class="c-specials">

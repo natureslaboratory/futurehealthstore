@@ -37,7 +37,7 @@
 				<i class="fa fa-envelope"></i> info@herbjar.co.uk
 			</a>
 			<p>
-				<i class="fa fa-location-dot"></i> Unit 3B, Enterprise Way, Whitby, North Yorkshire
+				<i class="fa fa-map-marker"></i> Unit 3B, Enterprise Way, Whitby, North Yorkshire
 			</p>
 		</div>
 		<div class="c-footer__social c-footer__column">

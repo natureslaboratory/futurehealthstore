@@ -225,3 +225,7 @@ input.c-search__box{
 .c-navigation__menu li:hover{
 	background:var(--grey);
 }
+
+.woocommerce-tabs{
+	display:none;
+}

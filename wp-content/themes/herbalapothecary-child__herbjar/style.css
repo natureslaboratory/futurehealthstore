@@ -14,7 +14,7 @@
 
 * {
     /* color: var(--primary, var(--green)); */
-    --primary: #006528;
+    --primary: #74b42a;
 }
 
 .wc-block-product-categories-list.wc-block-product-categories-list--depth-1 {
@@ -180,4 +180,8 @@ input.c-search__box{
 .quad .c-specials__option{
 	display:grid;
 	grid-template-rows:200px auto;
+}
+
+.c-carousel__overlay{
+	display:block;
 }

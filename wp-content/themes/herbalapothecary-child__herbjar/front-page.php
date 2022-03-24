@@ -18,7 +18,7 @@ get_header();
                     <p class="c-carousel__small-heading">The HerbJar</p>
                     <h1 class="c-carousel__heading">Additive-Free Skincare</h1>
                     <p class="c-carousel__description">Enjoy the regenerative and anti-ageing benefits of healthy and nourishing ingredients, with zero exposure to potentially harmful chemicals.</p>
-                    <a href="/about-us/" aria-label="About Us"><button class="c-button">About Us</button></a>
+                    <a href="/shop/" aria-label="About Us"><button class="c-button">Shop</button></a>
                 </div>
             </div>
         </div>
